@@ -1,0 +1,16 @@
+.me {
+    padding: 60px;
+}
+
+.me h1 {
+    background: linear-gradient(to right, #377771, #cffffa);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.me p {
+    font-size: 18px;
+}

@@ -1,0 +1,20 @@
+.contact h1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.react-icons {
+    font-size: 3rem;
+    color: white;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 0.8s linear;
+}
+
+.react-icons:hover {
+    transition: all 0.8s linear;
+    background-color: #377771;
+    color: black;
+    cursor: pointer;
+}

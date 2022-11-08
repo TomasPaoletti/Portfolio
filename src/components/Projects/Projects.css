@@ -1,0 +1,51 @@
+.container-projects{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.card {
+    position: relative;
+    background-color: black;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    height: 30rem;
+    border-radius: 30px;
+}
+
+.card-img {
+    opacity: 25%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover cover;
+    border-radius: 30px;
+}
+
+.card-title {
+    background: linear-gradient(to right, #377771, #cffffa);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 1.5rem;
+}
+
+.card-text {
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.button {
+    background-color: #377771;
+    color: white;
+    text-decoration: none;
+    margin: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all 0.5s linear;
+}
+
+.button:hover{
+    transition: all 0.5s linear;
+    color: black;
+}
