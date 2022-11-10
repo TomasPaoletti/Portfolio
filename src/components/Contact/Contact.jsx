@@ -16,7 +16,7 @@ function Contact() {
   return (
     <IconContext.Provider value={{ className: "react-icons" }}>
       <div className="contact">
-        <h1>Contactame</h1>
+        <h3>Contactame</h3>
         <a href="https://github.com/TomasPaoletti" target="_blank"><FaGithub /></a>
         <a href="https://www.linkedin.com/in/tomas-paoletti-velado/" target="_blank"><FaLinkedin /></a>
         <a href={download} download={true}><FaFile /></a>

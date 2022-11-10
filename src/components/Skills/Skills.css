@@ -1,9 +1,10 @@
 .skills{
-    padding: 45px;
+    margin-top: 2rem;
 }
 
 .skills img {
     height: 50px;
     width: 60px;
-    margin: 15px;
+    margin: 12px;
+    opacity: 0.5;
 }

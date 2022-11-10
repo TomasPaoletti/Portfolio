@@ -1,5 +1,6 @@
 .me {
-    padding: 60px;
+    padding: 6rem 6rem 0rem 6rem;
+    height: 80vh;
 }
 
 .me h1 {
@@ -13,4 +14,14 @@
 
 .me p {
     font-size: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+    .row-display {
+        display: none;
+    }
+
+    .me {
+        height: max-content;
+    }
 }

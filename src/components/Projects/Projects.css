@@ -1,5 +1,5 @@
-.container-projects{
-    height: 100vh;
+.container-projects {
+    height: 80vh;
     overflow-y: scroll;
 }
 
@@ -31,8 +31,7 @@
 }
 
 .card-text {
-    margin-top: 3.5rem;
-    margin-bottom: 3rem;
+    margin: 2rem 0 3rem 0;
 }
 
 .button {
@@ -45,7 +44,20 @@
     transition: all 0.5s linear;
 }
 
-.button:hover{
+.button:hover {
     transition: all 0.5s linear;
     color: black;
 }
+
+@media screen and (max-width: 1200px) {
+    .container-projects {
+        height: max-content;
+        overflow-y: hidden;
+    }
+ }
+
+ @media screen and (max-width:768px){
+    .card-text {
+        font-size: 13px;
+    }
+ }

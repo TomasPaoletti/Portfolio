@@ -22,7 +22,7 @@ function Projects() {
       <Card className="text-center">
         <Card.Img src={tuPrestamo} />
         <CardProjects title="Tu prestamo"
-          text="Tu prestamo es la app que presente como proyecto final en el curso JavaScript de CoderHouse. Se utilizo HTML, CSS, SASS, Bootstrap y JavaScript vanilla. Se trata de una pagina que simula el calculo de un credito personal en base al monto y las cuotas que uno desee. Tambien, si en algun futuro una persona tiene un credito en esta pagina, puede verlo ingresando su nombre y apellido. Este proyecto obtuvo la calificacion de 10."
+          text="Tu prestamo es la app que presente como proyecto final en el curso JavaScript de CoderHouse. Se utilizo HTML, CSS, SASS, Bootstrap y JavaScript vanilla. Simula el calculo de un credito personal en base al monto y las cuotas que uno desee. Si en algun futuro una persona tiene un credito en esta pagina, puede verlo ingresando su nombre y apellido. Este proyecto obtuvo la calificacion de 10."
           git="https://github.com/TomasPaoletti/TuPrestamoPaoletti"
           pag="https://tomaspaoletti.github.io/TuPrestamoPaoletti/"
         />
