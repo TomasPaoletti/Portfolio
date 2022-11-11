@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, FormControl, FormGroup, FormLabel, Row } from 'react-bootstrap'
 
-export default function FormInput({controlId, labelText, type, name, value, as, style, onChange}) {
+export default function FormInput({ controlId, labelText, type, name, value, as, style, onChange }) {
     return (
         <FormGroup className="m-3" controlId={controlId}>
             <Row>
@@ -9,7 +9,7 @@ export default function FormInput({controlId, labelText, type, name, value, as, 
                     {labelText}
                 </FormLabel>
                 <Col>
-                    <FormControl 
+                    <FormControl
                         type={type}
                         name={name}
                         value={value}

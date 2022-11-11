@@ -2,9 +2,9 @@ import React from 'react'
 import "./Contact.css"
 import { FaGithub, FaLinkedin, FaEnvelope, FaFile } from "react-icons/fa";
 import { IconContext } from 'react-icons';
-import download from "../../assets/CV-Tomas-Paoletti.pdf";
 import { useDispatch, useSelector } from 'react-redux';
 import { setModal } from '../../redux/reducer'
+import download from "../../assets/CV-Tomas-Paoletti.pdf";
 import FormContact from '../Form/FormContact';
 
 
@@ -23,7 +23,7 @@ function Contact() {
         <a onClick={() => dispatch(setModal())}>
           {modal ? <FaEnvelope /> : <FaEnvelope />}
         </a>
-          <FormContact />
+        <FormContact />
       </div>
     </IconContext.Provider>
   );

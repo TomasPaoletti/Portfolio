@@ -5,8 +5,6 @@ import Projects from '../Projects/Projects';
 import Me from '../Me/Me';
 import Contact from '../Contact/Contact'
 
-
-
 function Home() {
     return (
         <Container fluid>

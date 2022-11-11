@@ -3,10 +3,6 @@ body {
     color: #D9D9D9 !important;
 }
 
-.App {
-    font-family: montserrat;
-}
-
 *::-webkit-scrollbar {
     width: 0.5rem;
 }
@@ -14,4 +10,8 @@ body {
 *::-webkit-scrollbar-thumb {
     background-color: #16322f;
     border-radius: 3px;
+}
+
+.App {
+    font-family: montserrat;
 }

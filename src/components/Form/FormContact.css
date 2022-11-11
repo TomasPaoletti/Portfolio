@@ -1,9 +1,9 @@
-.modal-content{
+.modal-content {
     background-color: #0e2522;
     color: white;
 }
 
-.h4{
+.h4 {
     background: linear-gradient(to right, #377771, #cffffa);
     background-clip: text;
     -webkit-background-clip: text;
@@ -11,11 +11,11 @@
     font-size: 2rem;
 }
 
-.form-control{
+.form-control {
     background-color: #d3edea;
 }
 
-.btn-form{
+.btn-form {
     background-color: #377771;
     color: white;
     border-radius: 0.5rem;
@@ -24,7 +24,7 @@
     width: 7rem;
 }
 
-.btn-form:hover{
+.btn-form:hover {
     background-color: #377771;
     transition: all 0.5s linear;
     color: black;

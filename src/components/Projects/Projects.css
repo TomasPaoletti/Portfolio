@@ -54,10 +54,19 @@
         height: max-content;
         overflow-y: hidden;
     }
- }
+}
 
- @media screen and (max-width:768px){
+@media screen and (max-width:768px) {
     .card-text {
         font-size: 13px;
     }
- }
+}
+
+@media screen and (max-width: 576px) {
+    .button {
+        width: max-content;
+        margin: 1rem;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+    }
+}

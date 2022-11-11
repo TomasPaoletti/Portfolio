@@ -13,14 +13,14 @@ import mui from './Assets/mui.png'
 function Skills() {
     return (
         <div className="skills">
-            <img src={js} alt="js"/>
-            <img src={node} alt="node"/>
-            <img src={react} alt="react"/>
-            <img src={redux} alt="redux"/>
-            <img src={sass} alt="sass"/>
-            <img src={git} alt="git"/>
-            <img src={bootstrap} alt="bootstrap"/>
-            <img src={mui} alt="mui"/>
+            <img src={js} alt="js" />
+            <img src={node} alt="node" />
+            <img src={react} alt="react" />
+            <img src={redux} alt="redux" />
+            <img src={sass} alt="sass" />
+            <img src={git} alt="git" />
+            <img src={bootstrap} alt="bootstrap" />
+            <img src={mui} alt="mui" />
         </div>
     )
 }

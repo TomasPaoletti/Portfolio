@@ -25,14 +25,14 @@ function FormContact() {
         from_name: '',
         from_email: '',
         message: '',
-    })
+    });
 
     const inputForm = (e) => {
         setdataForm({
             ...dataForm,
             [e.target.name]: e.target.value,
         })
-    }
+    };
 
     const handleSubmit = (e) => {
         e.preventDefault();

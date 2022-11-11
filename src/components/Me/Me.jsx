@@ -11,7 +11,7 @@ function Me() {
       <Row>
         <Col>
           <h1>Tomás Paoletti Velado</h1>
-          <p>Soy desarrollador Frontend. Me gusta crear sólidos y funcionales proyectos que le den al usuario una experiencia excelente. Amante del clean code, de las buenas practicas y de React.</p>
+          <p>Soy desarrollador Frontend. Me gusta crear sólidos y funcionales proyectos que le den al usuario una experiencia excelente. Amante del clean code, de las buenas prácticas y de React.</p>
         </Col>
       </Row>
       <Row>
