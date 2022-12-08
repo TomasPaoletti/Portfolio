@@ -40,7 +40,7 @@
     text-decoration: none;
     margin: 3rem;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.9rem;
     transition: all 0.5s linear;
 }
 
@@ -64,7 +64,6 @@
 
 @media screen and (max-width: 576px) {
     .button {
-        width: max-content;
         margin: 1rem;
         padding: 0.5rem;
         border-radius: 0.5rem;

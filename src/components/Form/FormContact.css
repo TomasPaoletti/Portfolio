@@ -1,5 +1,5 @@
 .modal-content {
-    background-color: #0e2522;
+    background-color: #020f0e;
     color: white;
 }
 
@@ -13,6 +13,10 @@
 
 .form-control {
     background-color: #d3edea;
+}
+
+.form-control:focus{
+    box-shadow: none;
 }
 
 .btn-form {

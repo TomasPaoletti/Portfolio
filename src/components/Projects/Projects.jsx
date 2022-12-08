@@ -5,12 +5,21 @@ import CardProjects from './CardProjects';
 import riganoHome from './assets/riganoHome.png';
 import tuPrestamo from './assets/tuPrestamo.png';
 import bukaTemplo from './assets/bukaTemplo.png';
+import travelPack from './assets/travelPack.png';
 
 
 function Projects() {
 
   return (
     <Container className="container-projects">
+      <Card className="text-center">
+        <Card.Img src={travelPack} />
+        <CardProjects title="Travelpack"
+          text="Travelpack es la web presentada para No Country. En este proyecto pude desarrollar mis habilidades blandas trabajando en equipo con dos desarrolladores y dos diseñadoras. Utilizamos metodologías ágiles en un tablero Trello, distintas ramas en Github y reuniones semanales. Las tecnologías que implemente son React con distintos hooks, Bootstrap-react, Redux toolkit, React-router-dom y firebase"
+          git="https://github.com/No-Country/c8-88-t-react"
+          pag="https://travelpack-eight.vercel.app/"
+        />
+      </Card>
       <Card className="text-center">
         <Card.Img src={bukaTemplo} />
         <CardProjects title="Buka Templo"

@@ -10,8 +10,10 @@ export default function CardProjects({ title, text, git, pag }) {
             <Card.Title>{title}</Card.Title>
             <Card.Text>{text}</Card.Text>
             <Row>
-                <Col className="button-column">
+                <Col>
                     <Button target="_blank" href={git} bsPrefix="button">Código</Button>
+                </Col>
+                <Col>
                     <Button target="_blank" href={pag} bsPrefix="button">Sitio</Button>
                 </Col>
             </Row>
