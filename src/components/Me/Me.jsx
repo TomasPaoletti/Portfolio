@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Me.css"
 import { Col, Container, Row } from 'react-bootstrap'
 import Skills from '../Skills/Skills'
 import Contact from '../Contact/Contact'
+import "./Me.css"
 
 
 function Me() {

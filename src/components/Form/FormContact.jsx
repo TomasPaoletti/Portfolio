@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Col, Row, Form, Button, Modal } from 'react-bootstrap'
-import FormInput from './FormInput'
 import { useDispatch, useSelector } from 'react-redux';
+import FormInput from './FormInput'
 import { setModal } from '../../redux/reducer'
 import emailjs from '@emailjs/browser'
 import Swal from 'sweetalert2';
@@ -28,15 +28,14 @@ function FormContact() {
     });
 
     const inputForm = (e) => {
-        setdataForm({
-            ...dataForm,
+        setdataForm(currentValue => ({
+            ...currentValue,
             [e.target.name]: e.target.value,
-        })
+        }))
     };
 
     const handleSubmit = (e) => {
         e.preventDefault();
-
         emailjs.sendForm('service_e4w08mi', 'template_3nz5pra', e.target, 'qO_Pev5gjhoxroc-A')
             .then((resolve, reject) => {
                 resolve(
@@ -51,14 +50,12 @@ function FormContact() {
                         title: 'Error al enviar. Intentelo nuevamente'
                     })
                 )
-            })
-
+            });
         setdataForm({
             from_name: '',
             from_email: '',
             message: '',
         });
-
         dispatch(setModal())
     }
 

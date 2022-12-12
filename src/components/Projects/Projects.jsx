@@ -1,11 +1,11 @@
 import React from 'react';
-import "./Projects.css"
 import { Card, Container } from 'react-bootstrap';
 import CardProjects from './CardProjects';
 import riganoHome from './assets/riganoHome.png';
 import tuPrestamo from './assets/tuPrestamo.png';
 import bukaTemplo from './assets/bukaTemplo.png';
 import travelPack from './assets/travelPack.png';
+import "./Projects.css"
 
 
 function Projects() {

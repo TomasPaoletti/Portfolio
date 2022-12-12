@@ -1,5 +1,4 @@
 import React from 'react';
-import './Skills.css'
 import js from './Assets/js.png';
 import node from './Assets/node.png';
 import react from './Assets/react.png';
@@ -8,6 +7,7 @@ import sass from './Assets/sass.png';
 import git from './Assets/git.png';
 import bootstrap from './Assets/bootstrap.png';
 import mui from './Assets/mui.png'
+import './Skills.css'
 
 
 function Skills() {
