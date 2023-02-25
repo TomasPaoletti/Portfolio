@@ -11,7 +11,7 @@ function Me() {
       <Row>
         <Col>
           <h1>Tomás Paoletti Velado</h1>
-          <p>Soy desarrollador Frontend. Me gusta crear sólidos y funcionales proyectos que le den al usuario una experiencia excelente. Amante del clean code, de las buenas prácticas y de React.</p>
+          <p>¡Hola! Mi nombre es Tomás y soy desarrollador Frontend. Después de trabajar 10 años en mi propio taller mecánico, decidí dar un giro a mi vida y sumergirme en el mundo IT. Así descubrí el desarrollo Front que me conquistó automáticamente. En este portfolio podrán ver algunos proyectos en donde trabajé y pusieron a prueba mis habilidades. Muchas gracias por estar aquí</p>
         </Col>
       </Row>
       <Row>

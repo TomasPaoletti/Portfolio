@@ -6,6 +6,7 @@ import tuPrestamo from './assets/tuPrestamo.png';
 import bukaTemplo from './assets/bukaTemplo.png';
 import travelPack from './assets/travelPack.png';
 import rickAndMortyAPI from './assets/rickAndMortyAPI.jpg';
+import calculator from './assets/calculator.png'
 import "./Projects.css"
 
 
@@ -13,6 +14,14 @@ function Projects() {
 
   return (
     <Container className="container-projects">
+    <Card className="text-center">
+        <Card.Img src={calculator} />
+        <CardProjects title="Calculator"
+          text="Proyecto creado a través de Vite con React. Logré que se puedan realizar operaciones de suma, resta, multiplicación y división. Consideré un estilo simple, pero agradable con CSS puro, ya que el objetivo de la web es hacerlo con pocas dependencias. Los errores se disparan mediante un alert"
+          git="https://github.com/TomasPaoletti/Calculator"
+          pag="https://calculator-seven-sigma.vercel.app/"
+        />
+      </Card>
       <Card className="text-center">
         <Card.Img src={rickAndMortyAPI} />
         <CardProjects title="Rick and Morty API"
