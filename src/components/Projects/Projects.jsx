@@ -7,13 +7,20 @@ import bukaTemplo from './assets/bukaTemplo.png';
 import travelPack from './assets/travelPack.png';
 import rickAndMortyAPI from './assets/rickAndMortyAPI.jpg';
 import calculator from './assets/calculator.png'
+import GoT from './assets/GoT.jpg'
 import "./Projects.css"
 
-
 function Projects() {
-
   return (
     <Container className="container-projects">
+    <Card className="text-center">
+        <Card.Img src={GoT} />
+        <CardProjects title="Memo-Got-Test"
+          text="Proyecto creado a través de Vite con Typescript y React. Logré un juego sencillo, pero divertido donde tendrás que memorizar donde están los personajes para encontrarles el par. El temporizador se activa cuando presionas el botón y tienes 30 segundos en encontrarlos todos"
+          git="https://github.com/TomasPaoletti/Memo-Got-Test"
+          pag="https://memo-got-test.vercel.app/"
+        />
+      </Card>
     <Card className="text-center">
         <Card.Img src={calculator} />
         <CardProjects title="Calculator"
