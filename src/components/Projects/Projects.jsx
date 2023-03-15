@@ -13,22 +13,6 @@ import "./Projects.css"
 function Projects() {
   return (
     <Container className="container-projects">
-    <Card className="text-center">
-        <Card.Img src={GoT} />
-        <CardProjects title="Memo-Got-Test"
-          text="Proyecto creado a través de Vite con Typescript y React. Logré un juego sencillo, pero divertido donde tendrás que memorizar donde están los personajes para encontrarles el par. El temporizador se activa cuando presionas el botón y tienes 30 segundos en encontrarlos todos"
-          git="https://github.com/TomasPaoletti/Memo-Got-Test"
-          pag="https://memo-got-test.vercel.app/"
-        />
-      </Card>
-    <Card className="text-center">
-        <Card.Img src={calculator} />
-        <CardProjects title="Calculator"
-          text="Proyecto creado a través de Vite con React. Logré que se puedan realizar operaciones de suma, resta, multiplicación y división. Consideré un estilo simple, pero agradable con CSS puro, ya que el objetivo de la web es hacerlo con pocas dependencias. Los errores se disparan mediante un alert"
-          git="https://github.com/TomasPaoletti/Calculator"
-          pag="https://calculator-seven-sigma.vercel.app/"
-        />
-      </Card>
       <Card className="text-center">
         <Card.Img src={rickAndMortyAPI} />
         <CardProjects title="Rick and Morty API"
@@ -43,6 +27,22 @@ function Projects() {
           text="Travelpack es la web presentada para No Country. En este proyecto pude desarrollar mis habilidades blandas trabajando en equipo con dos desarrolladores y dos diseñadoras. Utilizamos metodologías ágiles en un tablero Trello, distintas ramas en Github y reuniones semanales. Las tecnologías que implemente son React con distintos hooks, Bootstrap-react, Redux toolkit, React-router-dom y firebase"
           git="https://github.com/No-Country/c8-88-t-react"
           pag="https://travelpack-eight.vercel.app/"
+        />
+      </Card>
+      <Card className="text-center">
+        <Card.Img src={GoT} />
+        <CardProjects title="Memo-Got-Test"
+          text="Proyecto creado a través de Vite con Typescript y React. Logré un juego sencillo, pero divertido donde tendrás que memorizar donde están los personajes para encontrarles el par. El temporizador se activa cuando presionas el botón y tienes 30 segundos en encontrarlos todos"
+          git="https://github.com/TomasPaoletti/Memo-Got-Test"
+          pag="https://memo-got-test.vercel.app/"
+        />
+      </Card>
+      <Card className="text-center">
+        <Card.Img src={calculator} />
+        <CardProjects title="Calculator"
+          text="Proyecto creado a través de Vite con React. Logré que se puedan realizar operaciones de suma, resta, multiplicación y división. Consideré un estilo simple, pero agradable con CSS puro, ya que el objetivo de la web es hacerlo con pocas dependencias. Los errores se disparan mediante un alert"
+          git="https://github.com/TomasPaoletti/Calculator"
+          pag="https://calculator-seven-sigma.vercel.app/"
         />
       </Card>
       <Card className="text-center">
