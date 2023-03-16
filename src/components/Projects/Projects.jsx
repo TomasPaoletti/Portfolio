@@ -18,7 +18,7 @@ function Projects() {
         <CardProjects title="Rick and Morty API"
           text="Rick and Morty cuenta bancaria es una web que simula manejar las cuentas de cada uno de los personajes de esta API convirtiéndolos en usuarios. Cada usuario puede depositarse dinero en su cuenta, realizar transferencias entre ellos, pedir un préstamo y pagar esa cuota del préstamo pedido. Todo se ve en tiempo real. Las tecnologías que utilice son React, Redux-Toolkit para manejo de estados, Bootstrap-react, react-icons, sweetAlert y Uiball. El login, register y logout es mediante Firebase"
           git="https://github.com/TomasPaoletti/RickAndMortyAPI"
-          pag=" "
+          pag="https://rickandmortybank.vercel.app"
         />
       </Card>
       <Card className="text-center">
