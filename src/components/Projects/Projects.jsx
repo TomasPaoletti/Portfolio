@@ -6,19 +6,20 @@ import tuPrestamo from './assets/tuPrestamo.png';
 import bukaTemplo from './assets/bukaTemplo.png';
 import travelPack from './assets/travelPack.png';
 import rickAndMortyAPI from './assets/rickAndMortyAPI.jpg';
-import calculator from './assets/calculator.png'
-import GoT from './assets/GoT.jpg'
+import calculator from './assets/calculator.png';
+import GoT from './assets/GoT.jpg';
+import ailenPresta from './assets/ailenPresta.png'
 import "./Projects.css"
 
 function Projects() {
   return (
     <Container className="container-projects">
       <Card className="text-center">
-        <Card.Img src={rickAndMortyAPI} />
-        <CardProjects title="Rick and Morty API"
-          text="Rick and Morty cuenta bancaria es una web que simula manejar las cuentas de cada uno de los personajes de esta API convirtiéndolos en usuarios. Cada usuario puede depositarse dinero en su cuenta, realizar transferencias entre ellos, pedir un préstamo y pagar esa cuota del préstamo pedido. Todo se ve en tiempo real. Las tecnologías que utilice son React, Redux-Toolkit para manejo de estados, Bootstrap-react, react-icons, sweetAlert y Uiball. El login, register y logout es mediante Firebase"
-          git="https://github.com/TomasPaoletti/RickAndMortyAPI"
-          pag="https://rickandmortybank.vercel.app"
+        <Card.Img src={ailenPresta} />
+        <CardProjects title="ChatBot Ailén Presta"
+          text="Desarrollé una aplicación utilizando Vite, Typescript, React y Tailwind. También realicé test unitarios utilizando Jest y React-testing-library para garantizar la calidad. Integré una API que permite clasificar preguntas ingresadas por el usuario y brindar respuestas correspondientes en tiempo real. La aplicación simula una conversación en la que se puede obtener información sobre Ailén, incluyendo sus estudios, ocupación, intereses personales y formas de contacto."
+          git="https://github.com/TomasPaoletti/AilenPresta"
+          pag="https://ailen-presta.vercel.app/"
         />
       </Card>
       <Card className="text-center">
@@ -27,6 +28,14 @@ function Projects() {
           text="Travelpack es la web presentada para No Country. En este proyecto pude desarrollar mis habilidades blandas trabajando en equipo con dos desarrolladores y dos diseñadoras. Utilizamos metodologías ágiles en un tablero Trello, distintas ramas en Github y reuniones semanales. Las tecnologías que implemente son React con distintos hooks, Bootstrap-react, Redux toolkit, React-router-dom y firebase"
           git="https://github.com/No-Country/c8-88-t-react"
           pag="https://travelpack-eight.vercel.app/"
+        />
+      </Card>
+      <Card className="text-center">
+        <Card.Img src={rickAndMortyAPI} />
+        <CardProjects title="Rick and Morty API"
+          text="Rick and Morty cuenta bancaria es una web que simula manejar las cuentas de cada uno de los personajes de esta API convirtiéndolos en usuarios. Cada usuario puede depositarse dinero en su cuenta, realizar transferencias entre ellos, pedir un préstamo y pagar esa cuota del préstamo pedido. Todo se ve en tiempo real. Las tecnologías que utilice son React, Redux-Toolkit para manejo de estados, Bootstrap-react, react-icons, sweetAlert y Uiball. El login, register y logout es mediante Firebase"
+          git="https://github.com/TomasPaoletti/RickAndMortyAPI"
+          pag="https://rickandmortybank.vercel.app"
         />
       </Card>
       <Card className="text-center">
